@@ -1,4 +1,3 @@
-Claro! Para adicionar o **README.md** diretamente no GitHub, basta seguir os passos abaixo. Eu vou fornecer o conteúdo do arquivo **README.md** de forma que você possa copiar e colar diretamente no GitHub.
 
 ### Como adicionar o README diretamente no GitHub
 
