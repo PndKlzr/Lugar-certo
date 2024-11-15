@@ -1,0 +1,125 @@
+/* Definindo fundo gradiente */
+body {
+  background: linear-gradient(135deg, #f0f8ff, #007BFF);  /* Gradiente suave azul claro para azul escuro */
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Centraliza o conteúdo e adiciona uma sombra suave */
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Sombra suave */
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Estilo do título */
+.title {
+  font-size: 36px;
+  color: #007BFF; /* Azul claro */
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Formulário */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input, button {
+  padding: 12px;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+input:focus, button:hover {
+  outline: none;
+  border-color: #007BFF;  /* Efeito de foco e hover com azul */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.7);  /* Brilho suave no foco */
+}
+
+/* Botão */
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transition: background-color 0.3s ease;
+}
+
+/* Lista de itens */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background-color: #f9f9f9;
+  margin: 15px 0;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);  /* Sombra suave para os cards */
+  transition: transform 0.3s ease;
+}
+
+li:hover {
+  transform: translateY(-5px);  /* Efeito de elevação ao passar o mouse */
+}
+
+li button {
+  background-color: #dc3545; /* Vermelho para o botão de remover */
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+li button:hover {
+  background-color: #c82333;
+}
+
+/* Filtro de data */
+form input[type="date"] {
+  width: auto; /* Ajuste para o campo de data */
+}
+
+/* Animação para carregamento */
+.loading {
+  font-size: 18px;
+  color: #007BFF;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Ícones */
+button.add-item, li button.delete-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button.add-item i, li button.delete-item i {
+  margin-right: 8px;
+}
