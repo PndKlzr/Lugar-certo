@@ -31,7 +31,7 @@ Este projeto utiliza:
 Primeiro, clone este repositório no seu computador:
 
 ```bash
-git clone https://github.com/SEU_USUARIO/lugar-certo.git](https://github.com/PndKlzr/Lugar-certo
+git clone https://github.com/SEU_USUARIO/lugar-certo.git
 cd lugar-certo
 ```
 
@@ -42,7 +42,7 @@ cd lugar-certo
    Para rodar o backend, você precisa do Python instalado na sua máquina. Após clonar o repositório, instale as dependências do backend:
 
    ```bash
-   cd backend
+   cd achados-e-perdidos-backend
    pip install -r requirements.txt
    ```
 
