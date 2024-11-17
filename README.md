@@ -1,6 +1,3 @@
-
-
-```markdown
 # Lugar Certo - Sistema de Achados e Perdidos
 
 ## Descrição
