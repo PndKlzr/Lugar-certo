@@ -1,10 +1,4 @@
 
-### Como adicionar o README diretamente no GitHub
-
-1. **Acesse seu repositório no GitHub**.
-2. Na página do repositório, clique no botão **"Add file"** (Adicionar arquivo) e depois em **"Create new file"** (Criar novo arquivo).
-3. No campo de nome do arquivo, digite `README.md`.
-4. No campo de conteúdo, cole o seguinte conteúdo abaixo (copie e cole diretamente):
 
 ```markdown
 # Lugar Certo - Sistema de Achados e Perdidos
@@ -87,7 +81,4 @@ cd lugar-certo
 
 - Após rodar ambos os servidores, abra seu navegador e acesse o **frontend** em `http://localhost:3000/`. A partir daí, você poderá interagir com a aplicação.
 
----
 
-
-Agora você terá o arquivo **README.md** configurado corretamente no seu repositório no GitHub! Isso vai permitir que outras pessoas saibam como rodar e contribuir para o seu projeto.
