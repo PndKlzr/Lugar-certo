@@ -35,7 +35,7 @@ const App = () => {
   // Função para enviar o novo item para o backend via POST
   const handleSubmit = (e) => {
     e.preventDefault();
-
+  
     fetch('http://127.0.0.1:5000/items', {
       method: 'POST',
       headers: {
@@ -44,13 +44,17 @@ const App = () => {
       body: JSON.stringify(newItem),
     })
       .then(response => response.json())
-      .then(data => {
-        setItems([...items, data]);  // Adiciona o novo item à lista
+      .then(() => {
+        // Após adicionar o item, recarrega a lista completa de itens
+        fetch('http://127.0.0.1:5000/items')
+          .then(response => response.json())
+          .then(data => setItems(data))  // Atualiza o estado com os itens do backend
+          .catch(error => console.error('Error fetching updated items:', error));
         setNewItem({ nome: '', descricao: '', data_encontro: '' });  // Limpa o formulário
       })
       .catch(error => console.error('Error adding item:', error));
   };
-
+  
   // Função para filtrar os itens com base na data selecionada
   const handleFilterSubmit = (e) => {
     e.preventDefault();
