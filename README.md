@@ -28,7 +28,7 @@ Este projeto utiliza:
 Primeiro, clone este repositório no seu computador:
 
 ```bash
-git clone https://github.com/SEU_USUARIO/lugar-certo.git
+git clone https://github.com/PndKlzr/Lugar-certo
 cd lugar-certo
 ```
 
